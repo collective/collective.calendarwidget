@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.calendarwidget">
+    
+  <include package="collective.js.jqueryui" />
+
+  <five:registerPackage package="." />
+  <cmf:registerDirectory name="collective_calendarwidget"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.calendarwidget"
+      directory="profiles/default"
+      description="collective.calendarwidget for plone"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <include package=".browser" />
+
+</configure>

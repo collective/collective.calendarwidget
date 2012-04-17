@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.calendarwidget">
+
+    <!-- Resource directory for JS -->
+    <browser:resource
+        name="calendarwidget.js"
+        file="calendarwidget.js"
+        permission="zope.Public"
+        />
+
+</configure>

@@ -1,0 +1,45 @@
+Changelog
+=========
+
+0.2.5 (2012-04-01)
+------------------
+- default for with_time is now True 
+
+0.2.4 (2012-01-01)
+------------------
+- $j() -> $()
+
+0.2.3 (2011-12-12)
+------------------
+
+- Get the hours/minutes from the request (if available). 
+  [jcbrand]
+
+- Allow any DateTime compatible date string to be passed in via the request.
+  [jcbrand]
+
+0.2.2 (2011-09-29)
+------------------
+
+- fixed issue in jsregistry.xml
+
+0.2.1 (2011-06-05)
+------------------
+
+- added Plone entry-point
+
+0.2.0 (2010-10-05)
+------------------
+
+- Use collective.js.jqueryui instead of including a copy of jqueryui.
+  [vincentfretin]
+
+- Replaced demjson with json. This library now only works with Plone 4
+  and newer
+  [ajung]
+
+
+0.1.0 (2009/12/03)
+------------------
+
+- Initial release

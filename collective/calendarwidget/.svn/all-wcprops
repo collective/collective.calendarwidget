@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/249457/collective.calendarwidget/branches/trunk/collective/calendarwidget
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/collective/!svn/ver/249457/collective.calendarwidget/branches/trunk/collective/calendarwidget/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/collective/!svn/ver/249457/collective.calendarwidget/branches/trunk/collective/calendarwidget/__init__.py
+END
+header.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/collective/!svn/ver/249457/collective.calendarwidget/branches/trunk/collective/calendarwidget/header.txt
+END
+widget.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/collective/!svn/ver/249457/collective.calendarwidget/branches/trunk/collective/calendarwidget/widget.py
+END
